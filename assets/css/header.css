@@ -18,9 +18,9 @@
 	content: '';
 	width: 50%;
 	height:100%;
-	background:#ffa500;
+	background:#242424;
 	z-index: -1;
-	margin-left: -250px;
+	margin-left: -350px;
 }
 .header:before {
 	position: absolute;
@@ -29,9 +29,9 @@
     content: '';
     width: 60px;
     height: 100%;
-    background: #ffa500;
+    background: #242424;
     z-index: -1;
-    margin-left: -281px;
+    margin-left: -381px;
     transform: skew(-23deg);
 }
 .menu-bg {
@@ -193,7 +193,7 @@
 		display: none;
 	}
 	.header{
-		background: #ffa500;
+		background: #242424;
 	}
 	.menu{
 		border-bottom: 4px solid #fff;
