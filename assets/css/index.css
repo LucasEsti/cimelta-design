@@ -133,12 +133,7 @@
 	color: #fff;
 }
 
-/*About_Sec*/
-.about-left p {
-	/*text-transform: capitalize;*/
-	color: #8e8e8e;
-	margin-top: 25px;
-}
+
 #about_us img {
 	width: 100%;
 }
@@ -193,7 +188,6 @@
 }
 .right-txt p {
 	text-transform: capitalize;
-	color: #8e8e8e;
 	margin: 0px;
 }
 .pic-show img {
