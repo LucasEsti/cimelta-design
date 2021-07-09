@@ -256,12 +256,13 @@ var datepicker = $('.datepicker');
 	home_team.owlCarousel({
 		loop : true,
 		margin :10,
+                autoplay: true,
 		nav : false,
 		dots : false,
 		navText : ["<i class='ion-ios-arrow-back'></i>", "<i class='ion-ios-arrow-forward'></i>"],
 		responsive : {
 			0 : {
-				items : 1
+				items : 2
 			},
 			767 : {
 				items : 2
