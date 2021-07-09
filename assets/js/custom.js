@@ -255,8 +255,8 @@ var datepicker = $('.datepicker');
 		var home_team = $('#team-carousel');
 	home_team.owlCarousel({
 		loop : true,
-		margin :30,
-		nav : true,
+		margin :10,
+		nav : false,
 		dots : false,
 		navText : ["<i class='ion-ios-arrow-back'></i>", "<i class='ion-ios-arrow-forward'></i>"],
 		responsive : {
@@ -267,10 +267,10 @@ var datepicker = $('.datepicker');
 				items : 2
 			},
 			992 : {
-				items : 4
+				items : 6
 			},
 			1200 : {
-				items : 4
+				items : 8
 			}
 		}
 	});
