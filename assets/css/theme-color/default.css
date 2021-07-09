@@ -19,7 +19,7 @@
 .abt-block__slider .owl-dots .owl-dot, .bullet_round:after, .second_righ:after, .bg_color, .bg-color, .prapl_btn:hover,
 .item-nav .item-prev .prev-btn:hover, .item-nav .item-next .next-btn:hover,
 .ui-input-group .input-bar:before, .ui-input-group .input-bar:after, .inner-header-wraper:hover i {
-  background: #DD363A;
+  background: none;
 }
 
 .bullet_round:before, .second_righ:before {
