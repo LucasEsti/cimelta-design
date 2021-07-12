@@ -57,7 +57,7 @@
 }
 .footer address {
 	position: relative;
-	padding-left: 30px;
+	/*padding-left: 30px;*/
 }
 .footer .blog-link li {
 	margin-right: 5px;
