@@ -255,7 +255,7 @@ var datepicker = $('.datepicker');
 		var home_team = $('#team-carousel');
 	home_team.owlCarousel({
 		loop : true,
-		margin :10,
+		margin : 30,
                 autoplay: true,
 		nav : false,
 		dots : false,
@@ -271,7 +271,7 @@ var datepicker = $('.datepicker');
 				items : 6
 			},
 			1200 : {
-				items : 8
+				items : 6
 			}
 		}
 	});
