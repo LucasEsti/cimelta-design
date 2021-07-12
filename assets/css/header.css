@@ -94,7 +94,7 @@
 }
 .navigation > ul > li > a {
 	display: block;
-	padding: 43px 16px;
+	padding: 43px 10px;
 	color: #222;
 	transition: all 0.25s ease 0s;
 	-webkit-transition: all 0.25s ease 0s;
