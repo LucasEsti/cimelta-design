@@ -71,8 +71,8 @@ h1:before {
 	z-index: 0;
 }
 h2 {
-font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
-    font-size: 30px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
+    font-size: 50px;
     margin-bottom: 10px;
     color: #222;
     font-weight: normal;
@@ -1338,7 +1338,7 @@ form label.error {
 .inner-intro {
 	margin-top: 106px;
 	background-color: #f7f7f7;
-	height: 300px;
+	height: 500px;
 	display: block;
 	position: relative;
 	overflow: hidden;
