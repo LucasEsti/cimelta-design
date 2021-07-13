@@ -47,7 +47,7 @@ body {
 	color: #222;
 	font-size: 14px;
 	font-weight: 400;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 }
 /*  Typography Style   ||-----------*/
 h1 {
@@ -55,7 +55,7 @@ h1 {
 	font-weight: 700;
 	margin-top: 0;
 	position: relative;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 }
 h1 span {
 	position: relative;
@@ -71,7 +71,7 @@ h1:before {
 	z-index: 0;
 }
 h2 {
-font-family: 'Poppins', sans-serif;
+font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
     font-size: 30px;
     margin-bottom: 10px;
     color: #222;
@@ -104,7 +104,7 @@ h6 {
 	font-weight: 600;
 }
 h3, h4, h4, h6 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	margin-top: 10px;
 	font-weight: 600;
 	color: #222;
@@ -123,7 +123,7 @@ a {
 
 .inner-intro h1 {
 	font-size: 40px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	font-weight: 800;
 	text-transform: uppercase;
 }
@@ -746,7 +746,7 @@ a, .btn, img {
 .btn-text {
 	font-size: 14px;
 	color: #fff;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	line-height: 50px;
 	border: 2px solid #DD363A;
 	padding: 0 22px;
@@ -1259,7 +1259,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 	display: inline-block;
 }
 button, input, textarea, select {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	font-size: 12px;
 }
 input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="password"], input[type="radio"], input[type="checkbox"], textarea, select {
@@ -1286,7 +1286,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, in
 }
 input, textarea, select {
 	margin-bottom: 20px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	font-size: 12px;
 }
 input.input-sm, .input-sm {
@@ -1302,7 +1302,7 @@ label {
 	padding-right: 3px;
 	margin-top: 6px;
 	font-weight: 600;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 }
 .form-full {
 	width: 100%;
@@ -1935,7 +1935,7 @@ form label.error {
 .blog-details .comment-box .single-comment-box .content-box a.reply {
 	font-size: 13px;
 	font-weight: bold;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	text-transform: uppercase;
 	color: #262F36;
 }
@@ -3768,7 +3768,7 @@ transform: scale(1);
 }
 .single-sidebar-widget .sec-title h2 {
 	font-size: 20px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 }
 .single-sidebar-widget .sec-title {
 	font-size: 15px;
@@ -3957,7 +3957,7 @@ transform: scale(1);
 	padding-left: 30px;
 }
 .single-sidebar-widget .popular-post .content a h4 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	color: #242424;
 	text-transform: uppercase;
 	font-size: 13px;
@@ -4066,7 +4066,7 @@ transform: scale(1);
 .single-client-box .content h3 {
 	font-size: 18px;
 	font-weight: bold;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	color: #242424;
 	text-transform: uppercase;
 	margin-bottom: 10px;
@@ -4076,7 +4076,7 @@ transform: scale(1);
 	margin: 0;
 }
 .single-sidebar-widget ul.brochure-btns li a {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	color: #404040;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -4598,7 +4598,7 @@ transform: scale(1);
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 12px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	position: relative;
 	cursor: pointer;
 	-webkit-transition: all 0.5s ease 0s;
@@ -5517,13 +5517,13 @@ transform: scale(1);
 	text-transform: uppercase;
 	font-size: 31px;
 	letter-spacing: 0;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	font-weight: 800;
 	display: block;
 	padding-bottom: 10px;
 }
 .contact_block-text p {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	text-transform: uppercase;
 	font-size: 35px;
 }
@@ -6913,7 +6913,7 @@ filter: alpha(opacity=0);
 	float: left;
 	text-align: center;
 	font-size: 30px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	color: #fff;
 	padding-top: 18px;
 	margin-right: 23px;
@@ -6944,7 +6944,7 @@ filter: alpha(opacity=0);
 .time-location span {
 	font-size: 14px;
 	color: #818799;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	text-transform: uppercase;
 	padding-right: 24px;
 }
@@ -8864,7 +8864,7 @@ ul.tags li {
 }
 .single-sidebar-widget .sec-title h2 {
 	font-size: 20px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 }
 .single-sidebar-widget .sec-title {
 	font-size: 15px;
@@ -9053,7 +9053,7 @@ ul.tags li {
 	padding-left: 30px;
 }
 .single-sidebar-widget .popular-post .content a h4 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	color: #242424;
 	text-transform: uppercase;
 	font-size: 13px;
@@ -9162,7 +9162,7 @@ ul.tags li {
 .single-client-box .content h3 {
 	font-size: 18px;
 	font-weight: bold;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	color: #242424;
 	text-transform: uppercase;
 	margin-bottom: 10px;
@@ -9172,7 +9172,7 @@ ul.tags li {
 	margin: 0;
 }
 .single-sidebar-widget ul.brochure-btns li a {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	color: #404040;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -9443,7 +9443,7 @@ ul.tags li {
 	position: relative;
 	color: #777777;
 	font-size: 14px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	padding: 0px;
 }
 
@@ -9707,7 +9707,7 @@ a.btn.xplus-btn.pricing.active:hover {
 	background: #fff;
 	border: 1px solid #d2d7e2;
 	border-top: 5px solid #168be8;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 }
 .price-title {
 	background: #f5f5f5;
@@ -9869,7 +9869,7 @@ a.btn.xplus-btn.pricing.active:hover {
 	padding: 15px 40px;
 	color: #119ee6;
 	background-color: #fff;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 700;
@@ -10051,7 +10051,7 @@ a.btn.xplus-btn.pricing.active:hover {
 	padding-bottom: 25px !important;
 	color: #222;
 	border: 0 !important;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	font-size: 18px;
 	text-align: center;
 	z-index: 0
@@ -10171,7 +10171,7 @@ a.btn.xplus-btn.pricing.active:hover {
 	#pricingIncluded .pricing--features li strong {
 		float: left;
 		color: #222;
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 		font-weight: 400
 	}
 	#pricingIncluded .pricing--items.border--on .pricing--features:before {

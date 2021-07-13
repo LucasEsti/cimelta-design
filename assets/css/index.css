@@ -12,7 +12,7 @@
 	font-size: 18px;
 	display: block;
 	margin-bottom: 5px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	line-height: 1;
@@ -28,7 +28,7 @@
 	font-weight: 600;
 }
 .main-banner .banner-text p {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 	color: #fff;
 	font-size: 15px;
 	margin-bottom: 20px;
