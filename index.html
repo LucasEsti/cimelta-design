@@ -27,6 +27,7 @@
         <link href="assets/css/footer.css" type="text/css" rel="stylesheet">
         <link href="assets/css/theme-color/default.css" rel="stylesheet" type="text/css" id="theme-color" />
         <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"/>
 
     </head>
     <body>
@@ -55,9 +56,15 @@
                 <div class="container-fluid">
                     <div class="row ">
                         <div class="col-md-3 d-flex align-items-center">
-                            <div class="logo">
-                                <a href="index-2.html" class="hidden-md-up"><img src="images/img/Domaines-expertise/logo47.png" alt="" /></a>
-                                <a href="index-2.html" class="hidden-sm-down" style="padding-left: 130px;"><img src="images/img/Domaines-expertise/logo.png" alt="" /></a>
+                            <div id="logoAnime" class="logo" >
+                                <a class="hidden-md-up"><img src="images/img/Domaines-expertise/logo47.png" alt="" /></a>
+                                <a  class="hidden-sm-down" style="padding-left: 130px; ">
+                                    <img id="slideComplet" src="images/img/Domaines-expertise/logo.png" alt="" class="d-none" />
+                                    <img id="slideUpImg" style="position: absolute; width: 50px; top: 32px; left: 165px;" data-animate="slideInUp animated" src="images/img/Domaines-expertise/logoDown.png" alt="" />
+                                    <img id="slideDownImg" style="position: absolute; width: 50px;top: 22px; left: 165px;" data-animate="slideInDown animated" src="images/img/Domaines-expertise/logoUp.png" alt="" />
+                                    <img id="slideText" style="position: absolute; width: 210px;top: 36px; left: 229px;" data-animate="slideInRight animated" src="images/img/Domaines-expertise/logoText.png" alt="" />
+                                </a>
+                                    
                             </div>
                             
                             <!-- Phone Menu button -->
@@ -739,6 +746,34 @@
         <script src="assets/js/custom.js" type="text/javascript"></script>
         
        <script src="assets/js/jquery.fancybox.pack.js" type="text/javascript"></script>
+       
+       <script type="text/javascript">
+           $(document).ready(function() {
+                
+                setTimeout(function(){
+                    //slideComplet
+                    var slideUpImg = $('#slideUpImg');
+                    var slideDownImg = $('#slideDownImg');
+                    var slideText = $('#slideText');
+                    
+                    slideUpImg.addClass(slideUpImg.data('animate'));
+                    slideDownImg.addClass(slideDownImg.data('animate'));
+                    slideText.addClass(slideText.data('animate'));
+                    
+                    setTimeout(function(){
+                        $("#slideComplet").removeClass("d-none");
+                        slideUpImg.removeClass("slideInUp animated");
+                        slideDownImg.removeClass("slideInDown animated");
+                        slideText.removeClass("slideInRight animated");
+                        
+                        slideUpImg.addClass("d-none");
+                        slideDownImg.addClass("d-none");
+                        slideText.addClass("d-none");
+                    }, 500);
+                }, 500);
+                
+            });
+       </script>
     </body>
 
 <!--  08:21 GMT -->
