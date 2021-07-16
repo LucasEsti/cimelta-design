@@ -80,6 +80,8 @@ $(document).ready(function() {
 	var container_filter = $(".container-filter");
 	container_filter.on("click", ".categories", function() {
 		var a = $(this).attr("data-filter");
+                var src = $(this).children().eq(0).attr("src");
+                $("#imageTous").attr("src", src);
 		container_masonry.isotope({
 			filter : a
 		});
