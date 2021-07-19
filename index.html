@@ -73,10 +73,11 @@
                             <div id="logoAnime" class="logo" >
                                 <a href="index.html" class="hidden-md-up"><img src="images/img/Domaines-expertise/logo47.png" alt="" /></a>
                                 <a href="index.html" class="hidden-sm-down" style="padding-left: 0px;  padding-right: 0px;">
-                                    <img id="slideComplet" src="images/img/Domaines-expertise/logo.png" alt="" class="d-none" />
-                                    <img id="slideUpImg" style="position: absolute; width: 42px; top: 22px; left: 35px;" data-animate="slideInUp animated" src="images/img/Domaines-expertise/logoDown.png" alt="" />
-                                    <img id="slideDownImg" style="position: absolute; width: 42px; top: 12px; left: 35px;" data-animate="slideInDown animated" src="images/img/Domaines-expertise/logoUp.png" alt="" />
-                                    <img id="slideText" style="position: absolute; width: 190px; top: 26px; left: 90px;" data-animate="slideInRight animated" src="images/img/Domaines-expertise/logoText.png" alt="" />
+                                    <img id="slideComplet" style="position: absolute; top: 0px;" src="images/img/Domaines-expertise/logo.png" alt="" class="d-none" />
+                                    <img id="slideUpImg" style="position: absolute; width: 270px; top: -10px; left: 0px; z-index: 1;" data-animate="slideInUp animated" src="images/img/Domaines-expertise/logo-1.png" alt="" />
+                                    <img id="slideDownImg" style="position: absolute; width: 270px; top: -10px; left: 0px; z-index: 2;" data-animate="slideInDown animated" src="images/img/Domaines-expertise/logo-2.png" alt="" />
+                                    <img id="slideText" style="position: absolute; width: 270px; top: -10px; left: 0px; z-index: 2;" data-animate="slideInRight animated" src="images/img/Domaines-expertise/logo-3.png" alt="" />
+                     
                                 </a>
                                     
                             </div>
@@ -659,7 +660,7 @@
                     slideDownImg.addClass(slideDownImg.data('animate'));
                     slideText.addClass(slideText.data('animate'));
                     
-                    setTimeout(function(){
+                    /**setTimeout(function(){
                         $("#slideComplet").removeClass("d-none");
                         slideUpImg.removeClass("slideInUp animated");
                         slideDownImg.removeClass("slideInDown animated");
@@ -669,8 +670,8 @@
                         slideDownImg.addClass("d-none");
                         slideText.addClass("d-none");
                         
-                    }, 1000);
-                }, 560);
+                    }, 1000);**/
+                }, 580);
                 
                 var owlCaroussOption = {
                     loop: false,
