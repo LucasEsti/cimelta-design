@@ -23,11 +23,11 @@ $(document).ready(function() {
     var headTop = $('#header');
 
     headertopoption.on('scroll', function() {
-        if (headertopoption.scrollTop() > 200) {
-            headTop.addClass('menu-bg');
-        } else {
-            headTop.removeClass('menu-bg');
-        }
+//        if (headertopoption.scrollTop() > 200) {
+//            headTop.addClass('menu-bg');
+//        } else {
+//            headTop.removeClass('menu-bg');
+//        }
     });
     
  
