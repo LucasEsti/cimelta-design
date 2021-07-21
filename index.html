@@ -69,7 +69,7 @@
             <div class="nav-wrap">
                 <div class="container-fluid">
                     <div class="row ">
-                        <div class="col-md-3 d-flex align-items-center" style="background: #242424;">
+                        <div class="col-md-3 d-flex align-items-center " style="background: #242424;">
                             <div id="logoAnime" class="logo" >
                                 <a href="index.html" class="hidden-md-up"><img src="images/img/Domaines-expertise/logo47.png" alt="" /></a>
                                 <a href="index.html" class="hidden-sm-down" style="padding-left: 0px;  padding-right: 0px;">
@@ -86,7 +86,7 @@
                                 <button id="menu" class="menu hidden-md-up"></button>
                             </div>
                         <div class="col-md-9 nav-bg d-flex align-items-center ">
-                            <nav class="navigation ">
+                            <nav id="navMenu" class="navigation ">
                                 <ul>
                                     <li>
                                         <a href="index.html"><b>Accueil</b></a><i class="ion-ios-plus-empty hidden-md-up"></i>
@@ -649,12 +649,30 @@
         
        <script type="text/javascript">
            $(document).ready(function() {
+               
+               var slideUpImg = $('#slideUpImg');
+                var slideDownImg = $('#slideDownImg');
+                var slideText = $('#slideText');
                 
+                if (screen.width >= 1440) {
+                    $('#navMenu').addClass('d-flex justify-content-center');
+                    slideUpImg.css('left', '220px');
+                    slideDownImg.css('left', '220px');
+                    slideText.css('left', '220px');
+                }else if (screen.width >= 1440) {
+                    $('#navMenu').addClass('d-flex justify-content-center');
+                    slideUpImg.css('left', '33px');
+                    slideDownImg.css('left', '33px');
+                    slideText.css('left', '33px');
+                } else if (screen.width >= 1024) {
+                    $('#navMenu').addClass('d-flex justify-content-center');
+                    slideUpImg.css('width', '240px');
+                    slideDownImg.css('width', '240px');
+                    slideText.css('width', '240px');
+                }
                 setTimeout(function(){
                     //slideComplet
-                    var slideUpImg = $('#slideUpImg');
-                    var slideDownImg = $('#slideDownImg');
-                    var slideText = $('#slideText');
+                    
                     
                     slideUpImg.addClass(slideUpImg.data('animate'));
                     slideDownImg.addClass(slideDownImg.data('animate'));
